@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taco Shop</title>
+    <meta name="author" content="Mbonyumugara Mushi">
+    <meta name="description" content="The official website for The Little Taco Shop">
+    <title>The Little Taco Shop</title>
     <link rel="stylesheet" href="starter_files/css/style.css">
     <link rel="icon" type="image/x-icon" href="starter_files/favicon.ico">
 </head>
@@ -15,10 +17,10 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#AboutLTS">About LTS</a>
+                    <a href="#about">About <abbr title="The Little Taco Shop">LTS</abbr></a>
                 </li>
                 <li>
-                    <a href="#Menu">Our Menu</a>
+                    <a href="#menu">Our Menu</a>
                 </li>
                 <li>
                     <a href="./hours.html">Store Hours</a>
@@ -27,15 +29,18 @@
                     <a href="./contact.html">Contact Us</a>
                 </li>
                 <br>
-                <img src="starter_files/img/tacos_and_drink_400x267.png" alt="Tacos&drink">
-                <figcaption>Tacos and a Drink</figcaption>
+                <figure>
+                    <img src="starter_files/img/tacos_and_drink_400x267.png" alt="Tacos and a drink" title="We love Tacos!" width="400" height="267">
+                    <figcaption>Tacos and a Drink</figcaption>
+                </figure>
             </ul>
         </nav>
     </header>
     <hr>
     <main>
+        <!-- our content-->
         <article>
-            <h2>About LTS</h2>
+            <h2 id="about">About LTS</h2>
             <section>
                 <p>
                     LTS was founded in 2022. Our shop was built from a <strong>love of tacos</strong>. We hope our shop
@@ -55,7 +60,7 @@
             </aside>
         </article>
         <hr>
-        <article id="Menu">
+        <article id="menu">
             <h1>Our Menu</h1>
             <section>
                 <table>
